@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { StyleSheet, View } from 'react-native';
 import {Todo} from './src/app/Todo';
+import {Reddit} from './src/app/Reddit';
 
 
 export default class App extends Component {
@@ -16,10 +17,11 @@ export default class App extends Component {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
+    // flex: 1,
+    // justifyContent: 'center',
+    // alignItems: 'center',
     backgroundColor: '#F5FCFF',
+    paddingTop:30
   },
   welcome: {
     fontSize: 20,
